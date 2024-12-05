@@ -72,6 +72,7 @@ img{
     font-family: Inter-variableFont;
     padding: 7px;
     transition: 1s;
+    color: black;
 }
 .btn:hover{
     background-color: brown;
@@ -81,9 +82,14 @@ img{
     font-family: Inter-variableFont;
     padding: 7px;
 }
+.age_select{
+    color: black;
+    padding: 7px;
+}
 select{
     font-family: Inter-variableFont;
     padding: 7px;
+    color: black;
 }
 html{
     background-color: rgb(217, 248, 248);

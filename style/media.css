@@ -13,11 +13,20 @@
     }
     select{
         width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .btn{
     width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     .sbros{
         width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

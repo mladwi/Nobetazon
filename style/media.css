@@ -11,20 +11,33 @@
     .right{
         margin-top: 0;
     }
+    .age_select{
+        padding: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
     select{
-        height: 50px;
+        padding: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body_select{
+        padding: 7px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .btn{
-    height: 50px;
+    padding: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
     }
     .sbros{
-        height: 50px;
+        padding: 7px;
         display: flex;
         align-items: center;
         justify-content: center;

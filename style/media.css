@@ -12,19 +12,19 @@
         margin-top: 0;
     }
     select{
-        width: 120px;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .btn{
-    width: 120px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     }
     .sbros{
-        width: 120px;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;

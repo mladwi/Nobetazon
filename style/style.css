@@ -99,6 +99,7 @@ span{
     padding: 7px;
     color: black;
     transition: 1s;
+    margin-bottom: 25px;
 }
 .sbros:hover{
     background-color: brown;

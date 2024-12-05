@@ -12,32 +12,32 @@
         margin-top: 0;
     }
     .age_select{
-        padding: 7px;
+        padding: 5px;
         display: flex;
         align-items: center;
         justify-content: center;
 
     }
     select{
-        padding: 7px;
+        padding: 5px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .body_select{
-        padding: 7px;
+        padding: 5px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .btn{
-    padding: 7px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     }
     .sbros{
-        padding: 7px;
+        padding: 3px;
         display: flex;
         align-items: center;
         justify-content: center;

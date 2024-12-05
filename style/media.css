@@ -12,12 +12,12 @@
         margin-top: 0;
     }
     select{
-        height: 30px;
+        width: 120px;
     }
     .btn{
-        height:  30px;
+    width: 120px;
     }
     .sbros{
-        height: 30px;
+        width: 120px;
     }
 }

@@ -1,0 +1,14 @@
+@media(max-width:450px){
+    .box{
+        display: block;
+    }
+    img{
+        width: 200px;
+    }
+    p{
+        text-align: center;
+    }
+    .right{
+        margin-top: 0;
+    }
+}

@@ -11,4 +11,16 @@
     .right{
         margin-top: 0;
     }
+    select{
+        width: 85px;
+        height: 45px;
+    }
+    .btn{
+        width: 85px;
+        height:  45px;
+    }
+    .sbros{
+        width: 85px;
+        height: 45px;
+    }
 }

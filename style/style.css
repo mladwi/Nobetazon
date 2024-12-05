@@ -83,13 +83,26 @@ img{
     padding: 7px;
 }
 .age_select{
-    color: black;
     padding: 7px;
 }
 select{
     font-family: Inter-variableFont;
     padding: 7px;
     color: black;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sbros{
+    padding: 7px;
+    color: black;
+    transition: 1s;
+}
+.sbros:hover{
+    background-color: brown;
+    color: #fff;
 }
 html{
     background-color: rgb(217, 248, 248);

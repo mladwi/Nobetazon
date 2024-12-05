@@ -18,6 +18,7 @@ const translations = {
         ts: "3-6 yosh",
         st: "6-10 yosh",
         tp: "10 va undan yuqori yoshdagilarga",
+        sb: "Yangilash",
     },
     ru: {
         title: "Нобетазон",
@@ -37,6 +38,7 @@ const translations = {
         ts: "3-6 лет",
         st: "6-10 лет",
         tp: "от 10 и старше",
+        sb: "Сбрось",
     },
 };
 
@@ -68,6 +70,7 @@ function updateTexts() {
     document.getElementById("ts").innerText = t.ts;
     document.getElementById("st").innerText = t.st;
     document.getElementById("tp").innerText = t.tp;
+    document.getElementById("sb").innerText = t.sb;
 }
 
 

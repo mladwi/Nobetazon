@@ -66,6 +66,7 @@ img{
     font-family: Inter-variableFont;
     font-size: 15px;
     text-align: center;
+    padding: 7px;
 }
 .language-switcher{
     display: flex;

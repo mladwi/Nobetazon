@@ -62,6 +62,7 @@ function updateTexts() {
     document.getElementById("bodyPartPrompt").innerText = t.bodyPartPrompt;
     document.getElementById("doseTitle").innerText = t.doseTitle;
     document.getElementById("doseResult").innerText = t.doseResult;
+    document.getElementById("nobetazon").innerText = t.nobetazon;
     document.getElementById("Fn").innerText = t.Fn;
     document.getElementById("Ah").innerText = t.Ah;
     document.getElementById("Lf").innerText = t.Lf;

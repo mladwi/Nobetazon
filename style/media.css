@@ -8,6 +8,9 @@
     .nobetazon_box img{
         width: 160px;
     }
+    .nobetazon_title{
+        padding: 10px;
+    }
     p{
         text-align: center;
     }
@@ -19,25 +22,28 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
+        height: 45px;
     }
     select{
         padding: 5px;
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 45px;
     }
     .body_select{
         padding: 5px;
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 45px;
     }
     .btn{
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 45px;
     }
     .sbros{
         padding: 3px;

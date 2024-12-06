@@ -13,9 +13,20 @@
             <div class="left">
                 <h1 id="title"></h1>
                 <p id="description"></p>
-                <img src="./img/nobetazon.jpg" alt="Nobetazon">
+                <img src="./img/nobetazon.png" alt="Nobetazon">
+
+                <h2 class="doseres" id="doseTitle"></h2>
+                <p class="doseres" id="doseResult"></p>
+                <div class="nobetazon_box">
+                    <img src="./img/nobetazon3.png" alt="">
+                    <img src="./img/nobetazon4.png" alt="">
+                </div>
             </div>
             <div class="right">
+                <div class="language-switcher">
+                    <button class="lan" onclick="changeLanguage('uz')">O'zb</button>
+                    <button class="lan" onclick="changeLanguage('ru')">Рус</button>
+                </div>
                 <select class="age_select" id="age">
                     <option id="mnth" value="3-12">3-12 oylik</option>
                     <option id="ot" value="1-3">1-3 yosh</option>
@@ -24,8 +35,6 @@
                     <option id="tp" value="10+">10 yoshdan kattalarga</option>
                 </select>
                 
-                <p id="agePrompt"></p>
-                <button onclick="calculateDose()" class="btn" id="calculateButton"></button>
 
                 <p id="bodyPartPrompt"></p>
                 <select class="body_select" id="bodyPart">
@@ -35,17 +44,20 @@
                     <option id="Ac" value="Anterior chest and abdomen">Ko‘krak va qorin</option>
                     <option id="BB" value="Back and Buttocks">Orqa va dumbalar</option>
                 </select>
+                <button onclick="calculateDose()" class="btn" id="calculateButton"></button>
+                <span><a href=""><button id="sb"  class="sbros">Yangilash</button></a></span>
 
-                <h2 id="doseTitle"></h2>
-                <p id="doseResult"></p>
+
+
+
             </div>
         </div>
-        <div class="language-switcher">
-            <button class="lan" onclick="changeLanguage('uz')">O'zb</button>
-            <button class="lan" onclick="changeLanguage('ru')">Рус</button>
-        </div>
-        <span><a href=""><button id="sb"  class="sbros">Yangilash</button></a></span>
     </div>
+    <div class="title_box">
+        <h3 id="nobetazon" class="nobetazon_title">SHIFOKOR RESEPTISIZ BERILADI. QO'LLASHGA QARSHI KO'RSATMALAR MAVJUD. QO'LASHDAN OLDIN SHIFOKOR BILAN MASLAHATLASHING EKI YURIQNOMA BILAN TANISHING. MAHSULOT SERTIFIKATLANGAN. QAYD ETISH GUVOHNOMASI: DV/X 08953/05/21, DV/X 08954/05/21. ISHLAB CHIQARUVCHI: MCHJ "NOBEL PHARMSANOAT" CHEK, O'ZBEKISTON</h3>
+    </div>
+    <p id="agePrompt"></p>
+
     <script src="./script.js"></script>
 </body>
 </html>

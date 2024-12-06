@@ -118,6 +118,14 @@ select{
     background-color: brown;
     color: #fff;
 }
+span{
+    width: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 html{
     background-color: rgb(217, 248, 248);
 }
